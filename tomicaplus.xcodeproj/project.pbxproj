@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A874A6A0246ACB6C003FE51F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A874A69F246ACB6C003FE51F /* AppDelegate.swift */; };
+		A874A6A2246ACB6C003FE51F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A874A6A1246ACB6C003FE51F /* SceneDelegate.swift */; };
+		A874A6A4246ACB6C003FE51F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A874A6A3246ACB6C003FE51F /* ContentView.swift */; };
+		A874A6A6246ACB6D003FE51F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A874A6A5246ACB6D003FE51F /* Assets.xcassets */; };
+		A874A6A9246ACB6D003FE51F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A874A6A8246ACB6D003FE51F /* Preview Assets.xcassets */; };
+		A874A6AC246ACB6D003FE51F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A874A6AA246ACB6D003FE51F /* LaunchScreen.storyboard */; };
+		A874A6B9246ACFDD003FE51F /* sl.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A874A6B3246ACFDD003FE51F /* sl.mp3 */; };
+		A874A6BA246ACFDD003FE51F /* f1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A874A6B4246ACFDD003FE51F /* f1.mp3 */; };
+		A874A6BB246ACFDD003FE51F /* policecar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A874A6B5246ACFDD003FE51F /* policecar.mp3 */; };
+		A874A6BC246ACFDD003FE51F /* helicopter.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A874A6B6246ACFDD003FE51F /* helicopter.mp3 */; };
+		A874A6BD246ACFDD003FE51F /* car.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A874A6B7246ACFDD003FE51F /* car.mp3 */; };
+		A874A6BE246ACFDD003FE51F /* ambulance.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A874A6B8246ACFDD003FE51F /* ambulance.mp3 */; };
+		A874A6C0246AD05B003FE51F /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A874A6BF246AD05B003FE51F /* Vehicle.swift */; };
+		A874A6C2246AD1FD003FE51F /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A874A6C1246AD1FD003FE51F /* AudioPlayer.swift */; };
+		A874A6D1246AE089003FE51F /* NFCReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A874A6D0246AE089003FE51F /* NFCReader.swift */; };
+		A8C7CF5D246BA7F0008E4DD3 /* sportscar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A8C7CF5C246BA7F0008E4DD3 /* sportscar.mp3 */; };
+		A8C7CF5F246BA886008E4DD3 /* firetruck.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A8C7CF5E246BA886008E4DD3 /* firetruck.mp3 */; };
+		A8C7CF62246BA9BB008E4DD3 /* bus.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A8C7CF61246BA9BB008E4DD3 /* bus.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A874A69C246ACB6C003FE51F /* tomicaplus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tomicaplus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A874A69F246ACB6C003FE51F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A874A6A1246ACB6C003FE51F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A874A6A3246ACB6C003FE51F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A874A6A5246ACB6D003FE51F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A874A6A8246ACB6D003FE51F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A874A6AB246ACB6D003FE51F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A874A6AD246ACB6D003FE51F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A874A6B3246ACFDD003FE51F /* sl.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sl.mp3; sourceTree = "<group>"; };
+		A874A6B4246ACFDD003FE51F /* f1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = f1.mp3; sourceTree = "<group>"; };
+		A874A6B5246ACFDD003FE51F /* policecar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = policecar.mp3; sourceTree = "<group>"; };
+		A874A6B6246ACFDD003FE51F /* helicopter.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = helicopter.mp3; sourceTree = "<group>"; };
+		A874A6B7246ACFDD003FE51F /* car.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = car.mp3; sourceTree = "<group>"; };
+		A874A6B8246ACFDD003FE51F /* ambulance.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ambulance.mp3; sourceTree = "<group>"; };
+		A874A6BF246AD05B003FE51F /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		A874A6C1246AD1FD003FE51F /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		A874A6CF246AE001003FE51F /* tomicaplus.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = tomicaplus.entitlements; sourceTree = "<group>"; };
+		A874A6D0246AE089003FE51F /* NFCReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCReader.swift; sourceTree = "<group>"; };
+		A8C7CF5C246BA7F0008E4DD3 /* sportscar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sportscar.mp3; sourceTree = "<group>"; };
+		A8C7CF5E246BA886008E4DD3 /* firetruck.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = firetruck.mp3; sourceTree = "<group>"; };
+		A8C7CF61246BA9BB008E4DD3 /* bus.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bus.mp3; path = ../../../../Desktop/bus.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A874A699246ACB6C003FE51F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A874A693246ACB6C003FE51F = {
+			isa = PBXGroup;
+			children = (
+				A874A69E246ACB6C003FE51F /* tomicaplus */,
+				A874A69D246ACB6C003FE51F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A874A69D246ACB6C003FE51F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A874A69C246ACB6C003FE51F /* tomicaplus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A874A69E246ACB6C003FE51F /* tomicaplus */ = {
+			isa = PBXGroup;
+			children = (
+				A874A6CF246AE001003FE51F /* tomicaplus.entitlements */,
+				A874A69F246ACB6C003FE51F /* AppDelegate.swift */,
+				A874A6A1246ACB6C003FE51F /* SceneDelegate.swift */,
+				A874A6A3246ACB6C003FE51F /* ContentView.swift */,
+				A874A6C1246AD1FD003FE51F /* AudioPlayer.swift */,
+				A874A6D0246AE089003FE51F /* NFCReader.swift */,
+				A874A6BF246AD05B003FE51F /* Vehicle.swift */,
+				A874A6A5246ACB6D003FE51F /* Assets.xcassets */,
+				A874A6AA246ACB6D003FE51F /* LaunchScreen.storyboard */,
+				A874A6AD246ACB6D003FE51F /* Info.plist */,
+				A874A6B8246ACFDD003FE51F /* ambulance.mp3 */,
+				A8C7CF61246BA9BB008E4DD3 /* bus.mp3 */,
+				A874A6B7246ACFDD003FE51F /* car.mp3 */,
+				A874A6B4246ACFDD003FE51F /* f1.mp3 */,
+				A8C7CF5E246BA886008E4DD3 /* firetruck.mp3 */,
+				A874A6B6246ACFDD003FE51F /* helicopter.mp3 */,
+				A874A6B5246ACFDD003FE51F /* policecar.mp3 */,
+				A874A6B3246ACFDD003FE51F /* sl.mp3 */,
+				A8C7CF5C246BA7F0008E4DD3 /* sportscar.mp3 */,
+				A874A6A7246ACB6D003FE51F /* Preview Content */,
+			);
+			path = tomicaplus;
+			sourceTree = "<group>";
+		};
+		A874A6A7246ACB6D003FE51F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A874A6A8246ACB6D003FE51F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A874A69B246ACB6C003FE51F /* tomicaplus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A874A6B0246ACB6D003FE51F /* Build configuration list for PBXNativeTarget "tomicaplus" */;
+			buildPhases = (
+				A874A698246ACB6C003FE51F /* Sources */,
+				A874A699246ACB6C003FE51F /* Frameworks */,
+				A874A69A246ACB6C003FE51F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tomicaplus;
+			productName = tomicaplus;
+			productReference = A874A69C246ACB6C003FE51F /* tomicaplus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A874A694246ACB6C003FE51F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Ryota Ayaki";
+				TargetAttributes = {
+					A874A69B246ACB6C003FE51F = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = A874A697246ACB6C003FE51F /* Build configuration list for PBXProject "tomicaplus" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A874A693246ACB6C003FE51F;
+			productRefGroup = A874A69D246ACB6C003FE51F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A874A69B246ACB6C003FE51F /* tomicaplus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A874A69A246ACB6C003FE51F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A874A6BA246ACFDD003FE51F /* f1.mp3 in Resources */,
+				A8C7CF5F246BA886008E4DD3 /* firetruck.mp3 in Resources */,
+				A874A6BB246ACFDD003FE51F /* policecar.mp3 in Resources */,
+				A8C7CF62246BA9BB008E4DD3 /* bus.mp3 in Resources */,
+				A874A6AC246ACB6D003FE51F /* LaunchScreen.storyboard in Resources */,
+				A874A6BD246ACFDD003FE51F /* car.mp3 in Resources */,
+				A874A6A9246ACB6D003FE51F /* Preview Assets.xcassets in Resources */,
+				A874A6A6246ACB6D003FE51F /* Assets.xcassets in Resources */,
+				A8C7CF5D246BA7F0008E4DD3 /* sportscar.mp3 in Resources */,
+				A874A6BE246ACFDD003FE51F /* ambulance.mp3 in Resources */,
+				A874A6BC246ACFDD003FE51F /* helicopter.mp3 in Resources */,
+				A874A6B9246ACFDD003FE51F /* sl.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A874A698246ACB6C003FE51F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A874A6C0246AD05B003FE51F /* Vehicle.swift in Sources */,
+				A874A6A0246ACB6C003FE51F /* AppDelegate.swift in Sources */,
+				A874A6D1246AE089003FE51F /* NFCReader.swift in Sources */,
+				A874A6C2246AD1FD003FE51F /* AudioPlayer.swift in Sources */,
+				A874A6A2246ACB6C003FE51F /* SceneDelegate.swift in Sources */,
+				A874A6A4246ACB6C003FE51F /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A874A6AA246ACB6D003FE51F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A874A6AB246ACB6D003FE51F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A874A6AE246ACB6D003FE51F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A874A6AF246ACB6D003FE51F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A874A6B1246ACB6D003FE51F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = tomicaplus/tomicaplus.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"tomicaplus/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = tomicaplus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayakix.tomicaplus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A874A6B2246ACB6D003FE51F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = tomicaplus/tomicaplus.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"tomicaplus/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = tomicaplus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayakix.tomicaplus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A874A697246ACB6C003FE51F /* Build configuration list for PBXProject "tomicaplus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A874A6AE246ACB6D003FE51F /* Debug */,
+				A874A6AF246ACB6D003FE51F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A874A6B0246ACB6D003FE51F /* Build configuration list for PBXNativeTarget "tomicaplus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A874A6B1246ACB6D003FE51F /* Debug */,
+				A874A6B2246ACB6D003FE51F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A874A694246ACB6C003FE51F /* Project object */;
+}
