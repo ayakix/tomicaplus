@@ -33,12 +33,20 @@ struct ContentView: View {
             }
         }
         .onAppear(perform: {
-            self.nfcReader.startSession()
+            self.readVehicle()
         })
         .onDisappear(perform: {
             self.nfcReader.stopSession()
         })
         .onReceive(NotificationCenter.default.publisher(for: UIApplication.willEnterForegroundNotification)) { _ in
+            self.readVehicle()
+        }
+    }
+    
+    private func readVehicle() {
+        if let vehicle = UserDefaultUtil.getVehicle() {
+            self.nfcReader.vehicle = vehicle
+        } else {
             self.nfcReader.startSession()
         }
     }

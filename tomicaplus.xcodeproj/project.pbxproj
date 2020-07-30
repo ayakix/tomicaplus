@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A8254FA224D2951D002E91FC /* bus.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A8254FA124D2951D002E91FC /* bus.mp3 */; };
+		A8254FA624D296A3002E91FC /* MyIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8254FA424D29627002E91FC /* MyIntentHandler.swift */; };
+		A8254FAC24D2F58C002E91FC /* UserDefaultUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8254FAB24D2F58C002E91FC /* UserDefaultUtil.swift */; };
+		A8254FAD24D2F58E002E91FC /* UserDefaultUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8254FAB24D2F58C002E91FC /* UserDefaultUtil.swift */; };
+		A8254FAE24D2F728002E91FC /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A874A6BF246AD05B003FE51F /* Vehicle.swift */; };
+		A84ADD1524D2940200DB0949 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84ADD1424D2940200DB0949 /* IntentHandler.swift */; };
+		A84ADD1E24D2940200DB0949 /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A84ADD1D24D2940200DB0949 /* IntentsUI.framework */; };
+		A84ADD2124D2940300DB0949 /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84ADD2024D2940300DB0949 /* IntentViewController.swift */; };
+		A84ADD2424D2940300DB0949 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A84ADD2224D2940300DB0949 /* MainInterface.storyboard */; };
+		A84ADD2824D2940300DB0949 /* tomicaintentUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A84ADD1B24D2940200DB0949 /* tomicaintentUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A84ADD2B24D2940300DB0949 /* tomicaintent.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A84ADD1224D2940200DB0949 /* tomicaintent.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A84ADD3424D2947B00DB0949 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = A84ADD3324D2947B00DB0949 /* Intents.intentdefinition */; };
+		A84ADD3524D2947B00DB0949 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = A84ADD3324D2947B00DB0949 /* Intents.intentdefinition */; };
 		A874A6A0246ACB6C003FE51F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A874A69F246ACB6C003FE51F /* AppDelegate.swift */; };
 		A874A6A2246ACB6C003FE51F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A874A6A1246ACB6C003FE51F /* SceneDelegate.swift */; };
 		A874A6A4246ACB6C003FE51F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A874A6A3246ACB6C003FE51F /* ContentView.swift */; };
@@ -24,10 +37,54 @@
 		A874A6D1246AE089003FE51F /* NFCReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A874A6D0246AE089003FE51F /* NFCReader.swift */; };
 		A8C7CF5D246BA7F0008E4DD3 /* sportscar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A8C7CF5C246BA7F0008E4DD3 /* sportscar.mp3 */; };
 		A8C7CF5F246BA886008E4DD3 /* firetruck.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A8C7CF5E246BA886008E4DD3 /* firetruck.mp3 */; };
-		A8C7CF62246BA9BB008E4DD3 /* bus.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A8C7CF61246BA9BB008E4DD3 /* bus.mp3 */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		A84ADD2624D2940300DB0949 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A874A694246ACB6C003FE51F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A84ADD1A24D2940200DB0949;
+			remoteInfo = tomicaintentUI;
+		};
+		A84ADD2924D2940300DB0949 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A874A694246ACB6C003FE51F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A84ADD1124D2940200DB0949;
+			remoteInfo = tomicaintent;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A84ADD2C24D2940300DB0949 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A84ADD2824D2940300DB0949 /* tomicaintentUI.appex in Embed App Extensions */,
+				A84ADD2B24D2940300DB0949 /* tomicaintent.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		A8254FA124D2951D002E91FC /* bus.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bus.mp3; sourceTree = "<group>"; };
+		A8254FA424D29627002E91FC /* MyIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyIntentHandler.swift; sourceTree = "<group>"; };
+		A8254FA724D29D4C002E91FC /* tomicaintent.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = tomicaintent.entitlements; sourceTree = "<group>"; };
+		A8254FAB24D2F58C002E91FC /* UserDefaultUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultUtil.swift; sourceTree = "<group>"; };
+		A84ADD1224D2940200DB0949 /* tomicaintent.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = tomicaintent.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A84ADD1424D2940200DB0949 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		A84ADD1624D2940200DB0949 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A84ADD1B24D2940200DB0949 /* tomicaintentUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = tomicaintentUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A84ADD1D24D2940200DB0949 /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		A84ADD2024D2940300DB0949 /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
+		A84ADD2324D2940300DB0949 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		A84ADD2524D2940300DB0949 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A84ADD3324D2947B00DB0949 /* Intents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Intents.intentdefinition; sourceTree = "<group>"; };
 		A874A69C246ACB6C003FE51F /* tomicaplus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tomicaplus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A874A69F246ACB6C003FE51F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A874A6A1246ACB6C003FE51F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,10 +105,24 @@
 		A874A6D0246AE089003FE51F /* NFCReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCReader.swift; sourceTree = "<group>"; };
 		A8C7CF5C246BA7F0008E4DD3 /* sportscar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sportscar.mp3; sourceTree = "<group>"; };
 		A8C7CF5E246BA886008E4DD3 /* firetruck.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = firetruck.mp3; sourceTree = "<group>"; };
-		A8C7CF61246BA9BB008E4DD3 /* bus.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bus.mp3; path = ../../../../Desktop/bus.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		A84ADD0F24D2940200DB0949 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A84ADD1824D2940200DB0949 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A84ADD1E24D2940200DB0949 /* IntentsUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A874A699246ACB6C003FE51F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -62,10 +133,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A8254FAA24D2F581002E91FC /* common */ = {
+			isa = PBXGroup;
+			children = (
+				A8254FAB24D2F58C002E91FC /* UserDefaultUtil.swift */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		A84ADD1324D2940200DB0949 /* tomicaintent */ = {
+			isa = PBXGroup;
+			children = (
+				A8254FA724D29D4C002E91FC /* tomicaintent.entitlements */,
+				A8254FA424D29627002E91FC /* MyIntentHandler.swift */,
+				A84ADD1424D2940200DB0949 /* IntentHandler.swift */,
+				A84ADD1624D2940200DB0949 /* Info.plist */,
+				A84ADD3324D2947B00DB0949 /* Intents.intentdefinition */,
+			);
+			path = tomicaintent;
+			sourceTree = "<group>";
+		};
+		A84ADD1C24D2940200DB0949 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A84ADD1D24D2940200DB0949 /* IntentsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A84ADD1F24D2940200DB0949 /* tomicaintentUI */ = {
+			isa = PBXGroup;
+			children = (
+				A84ADD2024D2940300DB0949 /* IntentViewController.swift */,
+				A84ADD2224D2940300DB0949 /* MainInterface.storyboard */,
+				A84ADD2524D2940300DB0949 /* Info.plist */,
+			);
+			path = tomicaintentUI;
+			sourceTree = "<group>";
+		};
 		A874A693246ACB6C003FE51F = {
 			isa = PBXGroup;
 			children = (
+				A8254FAA24D2F581002E91FC /* common */,
 				A874A69E246ACB6C003FE51F /* tomicaplus */,
+				A84ADD1324D2940200DB0949 /* tomicaintent */,
+				A84ADD1F24D2940200DB0949 /* tomicaintentUI */,
+				A84ADD1C24D2940200DB0949 /* Frameworks */,
 				A874A69D246ACB6C003FE51F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,6 +187,8 @@
 			isa = PBXGroup;
 			children = (
 				A874A69C246ACB6C003FE51F /* tomicaplus.app */,
+				A84ADD1224D2940200DB0949 /* tomicaintent.appex */,
+				A84ADD1B24D2940200DB0949 /* tomicaintentUI.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -92,7 +207,7 @@
 				A874A6AA246ACB6D003FE51F /* LaunchScreen.storyboard */,
 				A874A6AD246ACB6D003FE51F /* Info.plist */,
 				A874A6B8246ACFDD003FE51F /* ambulance.mp3 */,
-				A8C7CF61246BA9BB008E4DD3 /* bus.mp3 */,
+				A8254FA124D2951D002E91FC /* bus.mp3 */,
 				A874A6B7246ACFDD003FE51F /* car.mp3 */,
 				A874A6B4246ACFDD003FE51F /* f1.mp3 */,
 				A8C7CF5E246BA886008E4DD3 /* firetruck.mp3 */,
@@ -116,6 +231,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		A84ADD1124D2940200DB0949 /* tomicaintent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A84ADD3224D2940300DB0949 /* Build configuration list for PBXNativeTarget "tomicaintent" */;
+			buildPhases = (
+				A84ADD0E24D2940200DB0949 /* Sources */,
+				A84ADD0F24D2940200DB0949 /* Frameworks */,
+				A84ADD1024D2940200DB0949 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tomicaintent;
+			productName = tomicaintent;
+			productReference = A84ADD1224D2940200DB0949 /* tomicaintent.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		A84ADD1A24D2940200DB0949 /* tomicaintentUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A84ADD3124D2940300DB0949 /* Build configuration list for PBXNativeTarget "tomicaintentUI" */;
+			buildPhases = (
+				A84ADD1724D2940200DB0949 /* Sources */,
+				A84ADD1824D2940200DB0949 /* Frameworks */,
+				A84ADD1924D2940200DB0949 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tomicaintentUI;
+			productName = tomicaintentUI;
+			productReference = A84ADD1B24D2940200DB0949 /* tomicaintentUI.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		A874A69B246ACB6C003FE51F /* tomicaplus */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A874A6B0246ACB6D003FE51F /* Build configuration list for PBXNativeTarget "tomicaplus" */;
@@ -123,10 +272,13 @@
 				A874A698246ACB6C003FE51F /* Sources */,
 				A874A699246ACB6C003FE51F /* Frameworks */,
 				A874A69A246ACB6C003FE51F /* Resources */,
+				A84ADD2C24D2940300DB0949 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				A84ADD2724D2940300DB0949 /* PBXTargetDependency */,
+				A84ADD2A24D2940300DB0949 /* PBXTargetDependency */,
 			);
 			name = tomicaplus;
 			productName = tomicaplus;
@@ -139,10 +291,16 @@
 		A874A694246ACB6C003FE51F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1140;
+				LastSwiftUpdateCheck = 1160;
 				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = "Ryota Ayaki";
 				TargetAttributes = {
+					A84ADD1124D2940200DB0949 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					A84ADD1A24D2940200DB0949 = {
+						CreatedOnToolsVersion = 11.6;
+					};
 					A874A69B246ACB6C003FE51F = {
 						CreatedOnToolsVersion = 11.4.1;
 					};
@@ -162,11 +320,28 @@
 			projectRoot = "";
 			targets = (
 				A874A69B246ACB6C003FE51F /* tomicaplus */,
+				A84ADD1124D2940200DB0949 /* tomicaintent */,
+				A84ADD1A24D2940200DB0949 /* tomicaintentUI */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		A84ADD1024D2940200DB0949 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A84ADD1924D2940200DB0949 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A84ADD2424D2940300DB0949 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A874A69A246ACB6C003FE51F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -174,7 +349,7 @@
 				A874A6BA246ACFDD003FE51F /* f1.mp3 in Resources */,
 				A8C7CF5F246BA886008E4DD3 /* firetruck.mp3 in Resources */,
 				A874A6BB246ACFDD003FE51F /* policecar.mp3 in Resources */,
-				A8C7CF62246BA9BB008E4DD3 /* bus.mp3 in Resources */,
+				A8254FA224D2951D002E91FC /* bus.mp3 in Resources */,
 				A874A6AC246ACB6D003FE51F /* LaunchScreen.storyboard in Resources */,
 				A874A6BD246ACFDD003FE51F /* car.mp3 in Resources */,
 				A874A6A9246ACB6D003FE51F /* Preview Assets.xcassets in Resources */,
@@ -189,11 +364,33 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		A84ADD0E24D2940200DB0949 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A84ADD3524D2947B00DB0949 /* Intents.intentdefinition in Sources */,
+				A84ADD1524D2940200DB0949 /* IntentHandler.swift in Sources */,
+				A8254FAD24D2F58E002E91FC /* UserDefaultUtil.swift in Sources */,
+				A8254FAE24D2F728002E91FC /* Vehicle.swift in Sources */,
+				A8254FA624D296A3002E91FC /* MyIntentHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A84ADD1724D2940200DB0949 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A84ADD2124D2940300DB0949 /* IntentViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A874A698246ACB6C003FE51F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A84ADD3424D2947B00DB0949 /* Intents.intentdefinition in Sources */,
 				A874A6C0246AD05B003FE51F /* Vehicle.swift in Sources */,
+				A8254FAC24D2F58C002E91FC /* UserDefaultUtil.swift in Sources */,
 				A874A6A0246ACB6C003FE51F /* AppDelegate.swift in Sources */,
 				A874A6D1246AE089003FE51F /* NFCReader.swift in Sources */,
 				A874A6C2246AD1FD003FE51F /* AudioPlayer.swift in Sources */,
@@ -204,7 +401,28 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		A84ADD2724D2940300DB0949 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A84ADD1A24D2940200DB0949 /* tomicaintentUI */;
+			targetProxy = A84ADD2624D2940300DB0949 /* PBXContainerItemProxy */;
+		};
+		A84ADD2A24D2940300DB0949 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A84ADD1124D2940200DB0949 /* tomicaintent */;
+			targetProxy = A84ADD2924D2940300DB0949 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
+		A84ADD2224D2940300DB0949 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A84ADD2324D2940300DB0949 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
 		A874A6AA246ACB6D003FE51F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -216,6 +434,88 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		A84ADD2D24D2940300DB0949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = tomicaintent/tomicaintent.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = tomicaintent/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayakix.tomicaplus.tomicaintent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A84ADD2E24D2940300DB0949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = tomicaintent/tomicaintent.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = tomicaintent/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayakix.tomicaplus.tomicaintent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A84ADD2F24D2940300DB0949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = tomicaintentUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayakix.tomicaplus.tomicaintentUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A84ADD3024D2940300DB0949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = tomicaintentUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayakix.tomicaplus.tomicaintentUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		A874A6AE246ACB6D003FE51F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -333,6 +633,7 @@
 		A874A6B1246ACB6D003FE51F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = tomicaplus/tomicaplus.entitlements;
 				CODE_SIGN_STYLE = Automatic;
@@ -354,6 +655,7 @@
 		A874A6B2246ACB6D003FE51F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = tomicaplus/tomicaplus.entitlements;
 				CODE_SIGN_STYLE = Automatic;
@@ -375,6 +677,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		A84ADD3124D2940300DB0949 /* Build configuration list for PBXNativeTarget "tomicaintentUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A84ADD2F24D2940300DB0949 /* Debug */,
+				A84ADD3024D2940300DB0949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A84ADD3224D2940300DB0949 /* Build configuration list for PBXNativeTarget "tomicaintent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A84ADD2D24D2940300DB0949 /* Debug */,
+				A84ADD2E24D2940300DB0949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A874A697246ACB6C003FE51F /* Build configuration list for PBXProject "tomicaplus" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

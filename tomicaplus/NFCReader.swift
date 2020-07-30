@@ -14,7 +14,13 @@ import CoreNFC
 class NFCReader: NSObject, ObservableObject, NFCNDEFReaderSessionDelegate {
     private var session: NFCNDEFReaderSession!
     private var audioPlayer = AudioPlayer()
-    @Published var vehicle: Vehicle?
+    @Published var vehicle: Vehicle? {
+        didSet {
+            if let audioPath = vehicle?.audioPath {
+                self.audioPlayer.startPlayback(audioPath: audioPath)
+            }
+        }
+    }
     
     func startSession() {
         guard NFCNDEFReaderSession.readingAvailable else {
@@ -42,6 +48,7 @@ class NFCReader: NSObject, ObservableObject, NFCNDEFReaderSessionDelegate {
     }
     
     func readerSession(_ session: NFCNDEFReaderSession, didDetect tags: [NFCNDEFTag]) {
+        // https://qiita.com/Kyome/items/1bf108110dd6bf9fac60
         guard let tag = tags.first else {
             return
         }
@@ -67,7 +74,6 @@ class NFCReader: NSObject, ObservableObject, NFCNDEFReaderSessionDelegate {
                 self.stopSession()
                 DispatchQueue.main.async {
                     self.vehicle = vehicle
-                    self.audioPlayer.startPlayback(audioPath: vehicle.audioPath)
                 }
                 DispatchQueue.main.asyncAfter(deadline: .now() + 5) {
                     self.startSession()
